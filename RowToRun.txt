@@ -1,0 +1,7 @@
+lex LexFileNameWithExtension
+
+yacc -d YaccFileNameWithExtension
+
+gcc lex.yy.c YaccFileName.tab.c
+
+a.exe
